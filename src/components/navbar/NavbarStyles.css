@@ -7,6 +7,7 @@
     width: 100%;
     height: 90px;
     z-index: 10;
+
 }
 
 .header-bg {
@@ -30,6 +31,12 @@ transition: 0.5s;
 }
 
 @media screen and (max-width: 1040px) {
+    .span{
+        font-size: 2rem;
+        font-weight: 500;
+        color: white;
+        cursor: pointer;
+    }
     
     .nav-menu{
         flex-direction: column;
@@ -60,3 +67,42 @@ transition: 0.5s;
     display: initial;
 }
 }
+.dropdown-content {
+   display: none;
+   position: absolute;
+   top: 100%;
+   left: 0;
+   background-color: #fff;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.combo:hover .dropdown-content {
+   display: block;
+}
+
+span {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+}
+
+.dropl {
+    list-style: none;
+    padding: 0;
+}
+
+.dropl li {
+    padding: 10px;
+}
+
+.dropl li a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+.combo {
+    position: relative;
+}
+

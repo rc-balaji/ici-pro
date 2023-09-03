@@ -8,11 +8,11 @@ import { Work } from "../components/work/Work";
 export const Project = () => {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <HeroImg2 heading="PROJECTS" text="Some Of My Recent Works." />
       <PriceCardList />
       <Work />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

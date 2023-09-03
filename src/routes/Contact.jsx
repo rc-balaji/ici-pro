@@ -9,10 +9,10 @@ export const Contact = () => {
   
   return (
     <div>
-      <Navbar />
+
       <HeroImg2 heading="CONTACT" text="You can contact me via email." />
       <ContactForm />
-      <Footer />
+   
     </div>
   );
 };

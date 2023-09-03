@@ -13,6 +13,7 @@ import ChenlinNo1 from './Pages/ChenlinNo1'
 import ChenlinNo2 from './Pages/ChenlinNo2'
 import ChenlinNo3 from './Pages/ChenlinNo3'
 import Contact from './Pages/Contact'
+import {Upcoming }from './Pages/Upcoming'
 import { BrowserRouter,Route, Routes } from "react-router-dom";
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
         <Route path='/chenlink2' element={<ChenlinNo2/>} />
         <Route path='/chenlink3' element={<ChenlinNo3/>} />
         <Route path='/contact' element={<Contact/>} />
+        <Route path='/upcoming' element={<Upcoming/>} />
       </Routes>
       {/* <  Footer/> */}
       </BrowserRouter>
